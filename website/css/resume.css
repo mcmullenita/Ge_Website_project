@@ -1,0 +1,107 @@
+body p {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+header,
+main {
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+header p a {
+    font-size: 28px;
+    /* margin-top: 2px; */
+    color: #63B8FF;
+    vertical-align: middle;
+
+}
+
+h2 span {
+    display: inline-block;
+
+}
+
+.grey {
+    width: 100%;
+    background-color: #595959;
+    height: 20px;
+}
+
+.contact {
+    width: 80%;
+    text-align: right;
+    font-weight: 600;
+}
+
+.contact img {
+    margin-right: 2%;
+}
+
+.contact * {
+    line-height: 26px;
+    height: 26px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.content {
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 1100px;
+    position: absolute;
+}
+.content *{
+    vertical-align: middle;
+}
+
+main h1 {
+    margin-bottom: 30px;
+}
+ul li{
+    font-size: 16px;
+}
+main p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.leftContent {
+    width: 30%;
+    background-color: #e2e2e2;
+    height: 100%;
+    /* padding-top: 30%; */
+}
+.inner{
+    margin-top: 150%;
+}
+
+.rightContent {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 2%;
+}
+.bold{
+    font-size: 24px;
+    font-weight: 600;
+}
+.subBold{
+    font-size: 16px;
+    font-weight: 600;
+}
+footer a{
+    color:#63B8FF;
+}

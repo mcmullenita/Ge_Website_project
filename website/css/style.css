@@ -1,0 +1,75 @@
+body p {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+header,
+main {
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2 span {
+    display: inline-block;
+
+}
+
+.contact {
+    width: 30%;
+    margin: 0 auto;
+    font-size: 28x;
+    font-weight: 600;
+}
+
+.contact img {
+    margin-right: 2%;
+}
+
+.contact * {
+    line-height: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+main {
+    padding: 50px;
+}
+
+main p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+main a {
+    color: #63B8FF;
+}
+
+.bold {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.list {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.list img {
+    width: 29%;
+    margin-right: 2%;
+    height: 180px;
+    border-radius: 25px;
+}
